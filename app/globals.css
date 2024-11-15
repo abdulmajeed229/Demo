@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width:700px) {
+  
+  .contain{
+
+    flex-direction: column;
+  }
+  .myleft{
+    width: 100%;
+  }
+  .rightMy{
+    width: 100%;
+  }
+}
